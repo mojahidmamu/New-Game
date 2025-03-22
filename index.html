@@ -14,6 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <!-- Navbar -->
     <nav>
       <div class="navbar bg-base-100 shadow-sm">
         <div class="navbar-start">
@@ -62,10 +63,33 @@
         </div>
       </div>
     </nav>
-    <main>
-      <!-- First section -->
-      <section></section>
+
+    <main class="p-5">
+      <!-- Cover section -->
+      <section class="flex flex-row justify-between " >
+        <div class="hero bg-base-200 min-h-screen">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img
+              src="./images/Group 18.png"
+              class="max-w-sm rounded-lg shadow-2xl"
+            />
+            <div id="cover">
+              <h3 class="text-2xl font-bold">Play Like The</h3>
+              <h1 class="text-5xl font-bold text-pink-500">G.O.A.T.</h1>
+              <br />
+              <p class="text-gray-400"># 1-Click instant play</p>
+              <p class="text-gray-400 py-2"># No Download</p>
+              <p class="text-gray-400 pb-5"># 1000s of supported online games</p>
+              <div class="flex flex-row gap-4">
+                <button class="btn btn-secondary uppercase">Sign In</button>
+                <button class="btn btn-primary uppercase">Go Rogue</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
     <!-- Footer -->
     <footer
       class="footer footer-horizontal footer-center bg-base-300 text-base-content rounded p-10"
